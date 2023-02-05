@@ -19,12 +19,12 @@ function App() {
         </label>
         <label className="label">
           ширина
-          <input type="text" className="input"></input>
+          <input type="number" min="1" max="10" className="input"></input>
           <span className="units">м</span>
         </label>
         <label className="label">
           гратка
-          <input type="text" className="input"></input>
+          <input type="number" min="1" max="10" className="input"></input>
           <span className="units">cм</span>
         </label>
       </form>
